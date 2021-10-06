@@ -25,14 +25,14 @@ function CalculatPrice()
 
     if (NewPrice >= FirstPrice)
     {
-        Change = ((NewPrice - FirstPrice) / FirstPrice) * 100 / 10 // no idea why I have to divide by 10
-        ChangeInPrice = (Change * FirstPrice) / 1000 // no idea why i have to divide by 1000 instead of 100
+        Change = ((NewPrice - FirstPrice) / FirstPrice) * 100 
+        ChangeInPrice = (Change * FirstRealPrice) / 100
         TotalPrice = ChangeInPrice + FirstRealPrice
     }
     else 
     {
-        Change = ((FirstPrice - NewPrice) / FirstPrice) * 100 / 10
-        ChangeInPrice = (Change * FirstPrice) / 1000
+        Change = ((FirstPrice - NewPrice) / FirstPrice) * 100 
+        ChangeInPrice = (Change * FirstRealPrice) / 100
         TotalPrice = FirstRealPrice - ChangeInPrice
     }
 
