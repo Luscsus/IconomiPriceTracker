@@ -1,5 +1,5 @@
 # About:
-I quickly made this website to check on my investment. Because I'm not using my own account to invest but my brothers, therefore I needed a way to check the price without needing to constantly ask him.
+I quickly made this website to check on my investment. Because I'm not using my own account to invest but my brothers, therefore I needed a way to check the price without needing to constantly ask him. Here's the link to the website: https://iconomi.herokuapp.com/
 # Update:
 I've updated the website to support adding more investments and to calculate the daily fees.
 # How it works:
